@@ -1,0 +1,220 @@
+#header{
+
+  font-family: "Raleway", sans-serif;
+
+}
+
+
+.head{
+
+  color: #0b2341;
+  
+  font-size: 37px;
+  
+  padding-top: 16px;
+  
+  padding-left: 57px;
+  
+  font-weight: initial;
+  
+  cursor: pointer;
+  
+  }
+  
+  .logo{
+  
+    left: 29px;
+    top: 30px;
+    position: absolute;
+    width: 30;
+  }
+  
+  .list{
+  
+position: absolute;
+  
+top: 19px;
+  
+list-style: none;
+  
+display: flex;
+  
+right: 283px;
+  
+font-size: larger;
+  
+font-family: "Raleway", sans-serif;
+  }
+  .list-item{
+  
+display: inline-block;
+  
+padding-right: 30;
+  
+color: #0b2341;
+  
+list-style: none;
+  
+text-decoration: none;
+  
+cursor: pointer;
+  }
+  .btn{
+  
+position: absolute;
+  
+top: 24px;
+  
+right: 143px;
+  
+color: white;
+  
+padding: 13px 35px;
+  
+background: #ed502e;
+  
+cursor: pointer;
+  
+border-color: #ed502e;
+  
+border: solid;
+  
+border-radius: 6px;
+}
+  .btn:hover
+  {
+color:#ed502e;
+background: white;
+  }
+  
+  .list-item:hover
+  {
+    color:#ed502e;
+  
+  } 
+  .bg
+  {
+    width: 100%;
+    height: 500;
+  }
+  .bg-content{
+    color: #fff;
+    margin: 0;
+    font-size: 48px;
+    top: 223px;
+    font-weight: 700;
+    position: absolute;
+    left: 71px;
+    font-family: "Raleway", sans-serif;
+  }   
+  
+  .bg-p
+  {
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+    top: 300px;
+    position: absolute;
+    left: 71px;
+    font-family: "Raleway", sans-serif;
+  }
+  .bg-btn
+  {
+    position: absolute;
+    top: 104px;
+    left: 3px;
+    color: white;
+    padding: 13px 35px;
+    background: #ed502e;
+    cursor: pointer;
+    border-color: #ed502e;
+    border-radius: 6px;
+    border: none;
+  }
+
+  .bg-btn:hover
+  {
+
+color:#ed502e; 
+
+background: white;
+
+  }
+  #about
+
+  {
+
+height: 339px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.about-box{
+
+/* border: 2px solid; */
+
+width: 631px;
+
+height: 334px;
+
+margin: 12px;
+}
+
+.about-h1{
+  font-family: 'Ubuntu', sans-serif;
+  color: #a5a5a5;
+  position: relative;
+  top: 25px;
+  left: 37px;
+  font-weight: 100;
+}
+.about-h1::after{
+
+content: '';
+
+background: #ed502e;
+
+height: 2px;
+
+position: absolute;
+
+width: 57px;
+
+left: 70px;
+
+top: 10px;
+}
+.about-h2{
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+  top: 0px;
+  left: 38px;
+  font-size: xx-large;
+  color: #0f2f57;
+}
+.about-btn{
+  text-decoration: none;
+  color: #ed502e;
+  background:  white;
+  padding: 9px 29px;
+  position: relative;
+  top: 29px;
+  left: 27px;
+  border-radius: 9px;
+  font-family: 'Ubuntu',sans-serif;
+  border: solid #ed502e;
+}
+
+.about-btn:hover{
+
+  color: wheat;
+  background: #ed502e;
+}
+
+.fa-solid{
+color: #ed502e;
+padding-right: 7px;
+}
